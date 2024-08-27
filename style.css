@@ -1,0 +1,140 @@
+/* INDEX */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/unab.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #042F53;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+#logo  {
+    background-color: white;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.navbar .social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .social-icons a {
+    margin-left: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+#toggler {
+    color: white;
+}
+
+.form-container {
+    margin-top: 80px;
+}
+
+/* CARRERAS */
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem;
+}
+
+.btn-primary {
+    background-color: #002147;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #001833;
+}

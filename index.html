@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Académico - Instituto Educacional</title>
+    <link rel="icon" href="images/ico_unab.png" sizes="32x32">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        <!-- Navbar -->
+        <div class="navbar">
+            <img src="images/logo.png" id="logo" alt="Logo del Instituto">
+            <ul>
+                <li><a href="#admission">Admisión</a></li>
+                <li><a href="carreras.html">Carreras</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#estudiantes">Estudiantes</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://web.facebook.com/unab.cl/"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/uandresbello/"><img src="images/ig.png" alt="Instagram"></a>
+                <a href="https://www.tiktok.com/@uandresbello_cl"><img src="images/tiktok.png" alt="TikTok"></a>
+            </div>
+        </div>
+
+    <div class="form-container">
+        <h2>Formulario de Inscripción</h2>
+        <form action="/submit" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+
+            <label for="rut">RUT:</label>
+            <input type="text" id="rut" name="rut" required>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" required>
+
+            <label for="carrera">Carrera a Cursar:</label>
+            <select id="carrera" name="carrera" required>
+                <option value="">Seleccione una carrera</option>
+                <option value="ingenieria">Ingeniería Comercial</option>
+                <option value="derecho">Derecho</option>
+                <option value="medicina">Medicina</option>
+                <option value="biologia">Biología</option>
+                <option value="artes">Artes Visuales</option>
+                <option value="diseno">Diseño Gráfico</option>
+            </select>
+
+            <label for="periodo">Fecha del Período Académico:</label>
+            <input type="date" id="periodo" name="periodo" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+</body>
+</html>
